@@ -1,0 +1,43 @@
+# Default CODEOWNERS for all Involvex repos
+#
+# This file defines default code owners for the organization.
+# Individual repositories can override by providing their own CODEOWNERS file.
+#
+# Pattern reference: https://docs.github.com/en/repositories/managing-your-repositories-in-github/about-code-owners
+#
+# User format:
+#   @involvex
+
+# Default owner for all files
+*                       @involvex
+
+# Documentation
+*.md                    @involvex
+docs/**                 @involvex
+
+# Configuration & CI
+.github/**              @involvex
+*.yml                   @involvex
+*.yaml                  @involvex
+*.json                  @involvex
+*.toml                  @involvex
+
+# CI/CD workflow files
+.github/workflows/**    @involvex
+
+# Issue & PR templates
+.github/ISSUE_TEMPLATE/**         @involvex
+.github/PULL_REQUEST_TEMPLATE*    @involvex
+
+# Security & community health files
+.github/CODE_OF_CONDUCT.md    @involvex
+.github/CONTRIBUTING.md       @involvex
+.github/SECURITY.md           @involvex
+.github/SUPPORT.md            @involvex
+.github/FUNDING.yml           @involvex
+
+# Build & package files
+package.json              @involvex
+tsconfig.json             @involvex
+tsconfig.*.json           @involvex
+bun.lockb                 @involvex

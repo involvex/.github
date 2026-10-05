@@ -1,0 +1,11 @@
+blank_issues_list_only: false
+contact_links:
+  - name: ❓ Support
+    url: https://github.com/involvex/discussions
+    about: Ask questions and get help in GitHub Discussions
+  - name: 📖 Documentation
+    url: https://involvex.github.io/involvex/
+    about: Read the documentation to find answers
+  - name: 💬 Community
+    url: https://github.com/involvex
+    about: Visit the Involvex GitHub organization
